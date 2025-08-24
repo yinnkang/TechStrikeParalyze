@@ -1,0 +1,24 @@
+{
+  "ID": "com.quinn11235.TechStrikeParalyze",
+  "AssemblyName": "TechStrikeParalyze.dll",
+  "Author": [
+    {
+      "Key": "English",
+      "Value": "Quinn11235"
+    }
+  ],
+  "Version": "1.0",
+  "Name": [
+    {
+      "Key": "English",
+      "Value": "Tech Strike Paralyze"
+    }
+  ],
+  "Description": [
+    {
+      "Key": "English",
+      "Value": "Switches the New Jerichos Technician Arms to do Paralysing damage instead of stun damage, making them more effective for capture missions"
+    }
+  ],
+  "Dependencies": []
+}
