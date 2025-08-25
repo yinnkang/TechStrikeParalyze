@@ -4,10 +4,10 @@
   "Author": [
     {
       "Key": "English",
-      "Value": "Quinn11235"
+      "Value": "PP Modding Community"
     }
   ],
-  "Version": "1.0",
+  "Version": "2.0",
   "Name": [
     {
       "Key": "English",
@@ -17,7 +17,7 @@
   "Description": [
     {
       "Key": "English",
-      "Value": "Switches the New Jerichos Technician Arms to do Paralysing damage instead of stun damage, making them more effective for capture missions"
+      "Value": "Streamlined technician arms configuration with customizable damage values. Configure base, piercing, and paralysing damage for New Jericho technician arms. Features refactored architecture with improved performance, real-time updates, and enhanced effectiveness for capture missions. Reduced codebase with maintained functionality and simplified configuration interface."
     }
   ],
   "Dependencies": []
