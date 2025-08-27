@@ -70,7 +70,7 @@ namespace TechStrikeParalyze
                 return;
             }
 
-            // Get damage keyword definitions
+            // Get damage keyword definitions - replacing Shock with Base/Piercing/Paralyze
             DamageKeywordDef damageKeyword = Shared.SharedDamageKeywords.DamageKeyword;
             DamageKeywordDef piercingKeyword = Shared.SharedDamageKeywords.PiercingKeyword;
             DamageKeywordDef paralysingKeyword = Shared.SharedDamageKeywords.ParalysingKeyword;
@@ -81,7 +81,7 @@ namespace TechStrikeParalyze
                 return;
             }
 
-            // Create new damage configuration
+            // Create new damage configuration - replace Shock/Stun with Base + Piercing + Paralyze damage
             var newDamageKeywords = new List<DamageKeywordPair>
             {
                 new DamageKeywordPair { DamageKeywordDef = damageKeyword, Value = Config.BaseDamage },
@@ -92,8 +92,7 @@ namespace TechStrikeParalyze
             // Apply the changes
             techArmsWeapon.DamagePayload.DamageKeywords = newDamageKeywords;
 
-            Logger.LogInfo($"TechStrikeParalyze: Applied damage - Base: {Config.BaseDamage}, " +
-                          $"Piercing: {Config.PiercingDamage}, Paralysing: {Config.ParalysingDamage}");
+            Logger.LogInfo($"TechStrikeParalyze: Applied damage - Base: {Config.BaseDamage}, Piercing: {Config.PiercingDamage}, Paralysing: {Config.ParalysingDamage}");
         }
     }
 }
